@@ -103,14 +103,18 @@ li a{
 }
 
 .cards {
-    width: 100%;
+    width: 100wv;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    
 }
 
 .card {
     background: #fff;
+    width: 360px;
+    height: 465px;
+    display: inline-block;
    
 }
 
@@ -137,19 +141,20 @@ li a{
 
 .card h3 {
     margin: 15px 15px;
-    font-size: 18px;
+    font-size: 22px;
      color: black;
      font-family: sans-serif;
+     font-weight: 600;
      
 }
 
 .card p {
-    font-size: 14px;
+    font-size: 15px;
     color: black;
     line-height: 1.6;
     margin: 15px 15px;
+    
 }
-
 .footer {
     background: #1f1f1f;
     color: #bdbdbd;
